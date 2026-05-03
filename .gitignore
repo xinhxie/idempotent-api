@@ -1,0 +1,32 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tfvars.json
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Python / Compute
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+venv/
+env/
+.venv/
+.env
+
+# Deployment Artifacts
+*.zip
+*.tar.gz
+deployment-package/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
